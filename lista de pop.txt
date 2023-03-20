@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1 - Checagem da Sala Cirúrgica; 
 2 - Admissão de pacientes do Centro Obstétrico; 
 3 - Antissepsia cirúrgica ou preparo pré-operatório; 
@@ -14,4 +15,22 @@ https://guilermefalcao.github.io/popufal/
 
 
 github:
+=======
+1 - Checagem da Sala Cirúrgica; 
+2 - Admissão de pacientes do Centro Obstétrico; 
+3 - Antissepsia cirúrgica ou preparo pré-operatório; 
+4 - Cuidados Imediatos ao Recém-nascido durante o nascimento; 
+5 - Cateterismo vesical de demora; 
+6 - Assistência de enfermagem em Sala de Recuperação Pós Anestésica; 
+7 - Administração de Imunoglobulina anti hepatite B em recém-nascido exposto.
+
+
+
+
+link:
+https://guilermefalcao.github.io/popufal/
+
+
+github:
+>>>>>>> 63298006c7ede1625e05f458ac0b47854242407f
 https://github.com/guilermefalcao/popufal
