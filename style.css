@@ -120,6 +120,7 @@ footer {
 	font-size: 40px;
 	background-color: #d7e2d7; /* aqui você pode definir a cor que desejar */
 =======
+<<<<<<< HEAD
 /* Estilos padrão para desktop */
 header {
 	background-color: #f2f2f2;
@@ -231,5 +232,118 @@ footer {
   .link-entrar {
 	font-size: 40px;
 	background-color: #d7e2d7; /* aqui você pode definir a cor que desejar */
+=======
+/* Estilos padrão para desktop */
+header {
+	background-color: #f2f2f2;
+	padding: 20px;
+	text-align: center;
+}
+
+main {
+	padding: 20px;
+	text-align: center;
+}
+
+footer {
+	background-color: #f2f2f2;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Estilos para telas menores */
+@media screen and (max-width: 480px) {
+	header {
+		padding: 10px;
+	}
+
+	main {
+		padding: 10px;
+	}
+
+	footer {
+		padding: 10px;
+	}
+}
+
+
+
+
+/* cores e estilos das paginas */
+
+#div_item4 {
+	background-color: rgb(177, 177, 221);
+  }
+
+  #formulario_novo, #formulario_consultar{
+	background-color: rgb(205, 200, 235);
+
+  }
+
+
+  ul, ol {
+	list-style: none;
+  }
+  
+   /* botao voltar :*/
+  .centralizado {
+	display: block;
+	margin: 0 auto;
+	font-size: 20px;
+    padding: 10px 20px;
+    background-color: #4799c9; /* cor fundo */
+    color: #130b29; /* cor do texto  */
+    box-shadow: 2px 2px 5px #888888; /* sombra */
+	cursor: pointer;
+  }
+
+  .centralizado:hover {
+    background-color: #9c9697; /* cor fundo ao passar mouse */
+  }
+
+  p{
+	text-align: center;
+	padding-left: 20px;
+	text-indent: 20px;
+	padding: 0;
+  }
+
+ 
+
+  .lista_padrao, .lista_checkbox{
+	
+	display: inline-block;
+  flex-direction: column;
+  
+  align-items: center;
+  justify-content: left;
+  
+
+  margin: 0;
+  padding: 0;
+
+
+
+  }
+
+  .lista_padrao li{
+	list-style: disc;
+	text-align: left;
+	
+	margin-bottom: 10px;
+	
+  }
+
+  .lista_checkbox li{
+	list-style: none;
+	text-align: left;
+	
+	margin-bottom: 10px;
+  }
+
+  .link-entrar {
+	font-size: 40px;
+	background-color: #d7e2d7; /* aqui você pode definir a cor que desejar */
+>>>>>>> 15b0cb49ce77a940056f71eac6aa82f7c110644b
 >>>>>>> 63298006c7ede1625e05f458ac0b47854242407f
   }
