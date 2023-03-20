@@ -106,4 +106,7 @@ footer {
 	margin-bottom: 10px;
   }
 
- 
+  .link-entrar {
+	font-size: 40px;
+	background-color: #d7e2d7; /* aqui você pode definir a cor que desejar */
+  }
