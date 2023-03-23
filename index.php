@@ -92,8 +92,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <meta charset="UTF-8">
     <title>Login</title>
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-	<link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+	<!-- <link rel="stylesheet" href="style2.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
     
     <style>
         body{ font: 14px sans-serif; }
@@ -103,7 +103,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <body>
 
     <header>
-	<h2><strong>UNIVERSIDADE FEDERAL DE ALAGOAS - UFAL</strong></h2>
+	<h3 style="text-align: center;"><strong>UNIVERSIDADE FEDERAL DE ALAGOAS - UFAL</strong></h3>
 	</header>
     <br>
     <br>
@@ -136,14 +136,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         </form>
     </div>
 
-    <br>
-    <footer>
-	<strong>UNIVERSIDADE FEDERAL DE ALAGOAS - UFAL</strong>
-    <br>
-    <strong>HOSPITAL UNIVERSITÁRIO PROFESSOR</strong>
-    <br>
-    <strong>ALBERTO ANTUNES - HUPAA</strong>
-	</footer>
+   
 </body>
 </html>
 

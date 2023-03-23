@@ -166,3 +166,8 @@ footer {
 
 .my-5 {margin-bottom:3rem!important}
 .my-5 {margin-top:3rem!important}
+
+
+.logo_pop img {
+    opacity: 0.5;
+  }
