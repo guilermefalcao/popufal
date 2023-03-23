@@ -1,0 +1,168 @@
+
+/* Estilos padrão para desktop */
+header {
+	background-color: #f2f2f2;
+	padding: 20px;
+	text-align: center;
+}
+
+main {
+	padding: 20px;
+	text-align: center;
+}
+
+footer {
+	background-color: #f2f2f2;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Estilos para telas menores */
+@media screen and (max-width: 480px) {
+	header {
+		padding: 10px;
+	}
+
+	main {
+		padding: 10px;
+	}
+
+	footer {
+		padding: 10px;
+	}
+}
+
+
+
+
+/* cores e estilos das paginas */
+
+#div_item4 {
+	background-color: rgb(177, 177, 221);
+  }
+
+  #formulario_novo, #formulario_consultar{
+	background-color: rgb(205, 200, 235);
+
+  }
+
+
+  ul, ol {
+	list-style: none;
+  }
+  
+   /* botao voltar :*/
+  .centralizado {
+	display: block;
+	margin: 0 auto;
+	font-size: 20px;
+    padding: 10px 20px;
+    background-color: #4799c9; /* cor fundo */
+    color: #130b29; /* cor do texto  */
+    box-shadow: 2px 2px 5px #888888; /* sombra */
+	cursor: pointer;
+  }
+
+  .centralizado:hover {
+    background-color: #9c9697; /* cor fundo ao passar mouse */
+  }
+
+  p{
+	text-align: center;
+	padding-left: 20px;
+	text-indent: 20px;
+	padding: 0;
+  }
+
+ 
+
+  .lista_padrao, .lista_checkbox{
+	
+	display: inline-block;
+  flex-direction: column;
+  
+  align-items: center;
+  justify-content: left;
+  
+
+  margin: 0;
+  padding: 0;
+
+
+
+  }
+
+  .lista_pops li{
+    background: #4a9bf1;
+    margin: 5px;
+    box-shadow: 2px 2px #092b50;
+    
+  }
+
+.lista_pops li a{
+    color: rgb(24, 19, 21);
+  }
+  .lista_pops li a:link{
+    color: #00F;
+  }
+  .lista_pops li a:hover {
+    color: rgb(124, 67, 67);
+  }
+
+  
+
+
+
+
+  .lista_padrao li{
+	list-style: disc;
+	text-align: left;
+	
+	margin-bottom: 10px;
+	
+  }
+
+  .lista_checkbox li{
+	list-style: none;
+	text-align: left;
+	
+	margin-bottom: 10px;
+  }
+
+  .link_entrar {
+    background-color: #3de058; 
+    border: none;
+    color: rgb(31, 7, 7);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+  }
+
+  .button_redefina {
+    background-color: #f5f834; 
+    border: none;
+    color: rgb(31, 7, 7);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.button_sairconta {
+    background-color: #5f1016; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    
+}
+
+.my-5 {margin-bottom:3rem!important}
+.my-5 {margin-top:3rem!important}
