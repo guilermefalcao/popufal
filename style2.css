@@ -153,14 +153,14 @@ footer {
 }
 
 .button_sairconta {
-    background-color: #5f1016; 
+    background-color: #e02e2e; 
     border: none;
-    color: white;
-    padding: 15px 32px;
+    color: rgb(134, 204, 171);
+    padding: 20px 44px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;
+    font-size: 25px;
     
 }
 
@@ -168,6 +168,17 @@ footer {
 .my-5 {margin-top:3rem!important}
 
 
-.logo_pop img {
+.logo_pop {
     opacity: 0.5;
+    margin: 0 auto;
+    width: 350px;
+    
+  }
+
+  .logo_centro{
+    opacity: 0.5;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   }
